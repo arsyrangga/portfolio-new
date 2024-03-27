@@ -1,6 +1,6 @@
 import React from "react";
 import TextDivider from "../divider/TextDivider";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { imageList } from "@/constant/constant";
 
 const Skills = () => {

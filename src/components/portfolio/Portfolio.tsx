@@ -1,7 +1,7 @@
 import React from "react";
 import TextDivider from "../divider/TextDivider";
 import { projectData } from "@/constant/constant";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Portfolio = () => {
   return (
