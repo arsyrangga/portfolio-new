@@ -7,7 +7,7 @@ const Navbar = () => {
   const handleMenu = () => {setMenu(!menu)};
   return (
     <nav className="navbarMain paddingDefault">
-      <div className="flex nav-left" data-aos="fade-right" data-aos-delay="100">
+      <div className="flex nav-left" data-aos="fade-right" >
         <h3 className="brand">RANGGA</h3>
       </div>
       <div className="flex nav-right">
@@ -16,7 +16,6 @@ const Navbar = () => {
           className="mobile"
           onClick={handleMenu}
           data-aos="fade-down-left"
-          data-aos-delay="500"
         >
           <Image
             src={"/assets/icon/icon_menu.svg"}
@@ -32,19 +31,19 @@ const Navbar = () => {
         </div>
         {/* mobile */}
 
-        <span data-aos-delay="200" data-aos="fade-down-right">
+        <span  data-aos="fade-down-right">
           <a href="#">Home</a>
         </span>
-        <span data-aos-delay="300" data-aos="fade-down-right">
+        <span  data-aos="fade-down-right">
           <a href="#about">About</a>
         </span>
-        <span data-aos-delay="400" data-aos="fade-down-right">
+        <span  data-aos="fade-down-right">
           <a href="#skills">Skills</a>
         </span>
-        <span data-aos-delay="500" data-aos="fade-down-right">
+        <span data-aos="fade-down-right">
           <a href="#portofolio">Portfolio</a>
         </span>
-        <span data-aos-delay="600" data-aos="fade-down-right">
+        <span  data-aos="fade-down-right">
           <a href="#contact">Contact</a>
         </span>
       </div>

@@ -16,7 +16,6 @@ const Skills = () => {
             data-aos={`flip-${
               (i + 1) % 3 === 0 ? "right" : (i + 1) % 3 === 1 ? "left" : "up"
             }`}
-            data-aos-delay={`${50 * (i + i)}`}
           >
             <Image
               src={e.url}

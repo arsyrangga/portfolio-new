@@ -8,11 +8,13 @@
     top: 0;
     background-color: #23004F;
     z-index: 99;
+    max-width: 1728px;
 }
 
 .brand {
     font-weight: bold;
     font-size: 2rem;
+    margin-left: -20px;
 }
 
 .nav-left {

@@ -130,3 +130,11 @@ main {
     opacity 0.2s ease-in-out;
 
 }
+
+#ReactSimpleImageViewer{
+z-index: 99999;
+}
+
+.react-simple-image-viewer__close{
+  opacity: 1 !important;
+}
