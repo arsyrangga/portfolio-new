@@ -89,8 +89,7 @@ const Contact = () => {
         <div className="contact-right">
           <div
             className="grouper-contact"
-            data-aos="fade-left"
-            data-aos-offset="300"
+            data-aos="fade-right"
             data-aos-easing="ease-in-sine"
             onClick={() => {
               window.open("https://www.linkedin.com/in/ranggarsy/");
@@ -106,8 +105,7 @@ const Contact = () => {
           </div>
           <div
             className="grouper-contact"
-            data-aos="fade-left"
-            data-aos-offset="300"
+            data-aos="fade-right"
             data-aos-easing="ease-in-sine"
             onClick={() => {
               window.open("mailto:arsyrangga@gmail.com");
@@ -123,8 +121,7 @@ const Contact = () => {
           </div>
           <div
             className="grouper-contact"
-            data-aos="fade-left"
-            data-aos-offset="300"
+            data-aos="fade-right"
             data-aos-easing="ease-in-sine"
             onClick={() => {
               window.open("tel:+6289673494895");

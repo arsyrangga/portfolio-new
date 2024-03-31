@@ -28,6 +28,7 @@ html {
 
 * {
   cursor: none !important;
+  box-sizing: border-box;
   font-family: "Play", sans-serif !important;
 }
 

@@ -59,7 +59,8 @@
 @media(max-width : 768px) {
 
     .contact {
-        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
     }
 
     .contact-left {
@@ -71,5 +72,7 @@
     .contact-right {
         width: 100%;
         margin-top: 3rem;
+        flex-direction: column;
+        display: flex;
     }
 }
