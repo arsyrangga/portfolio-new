@@ -1,4 +1,5 @@
 import React from "react";
+import { uuid } from "uuidv4";
 
 const Footer = () => {
   return (
@@ -10,6 +11,7 @@ const Footer = () => {
         className="text-light text-md"
       >
         Copyright Rangga Arsy Prawira @2024 || All Right Reserved
+        {" " +uuid()}
       </span>
     </footer>
   );
