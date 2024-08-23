@@ -11,7 +11,7 @@ const Footer = () => {
         className="text-light text-md"
       >
         Copyright Rangga Arsy Prawira @2024 || All Right Reserved
-        {" " +uuid()}
+        {" " +crypto.randomUUID()}
       </span>
     </footer>
   );
