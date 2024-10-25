@@ -11,12 +11,12 @@ import Portfolio from "@/components/portfolio/Portfolio";
 import Contact from "@/components/contact/Contact";
 import Footer from "@/components/footer/Footer";
 
-// import {BASEURL} from "./kahootHost"
+import {BASEURL} from "./kahootHost"
 
 export default function Home() {
   useEffect(() => {
     AOS.init();
-    // console.log(BASEURL, "==============")
+    console.log(BASEURL, "==============")
     window.scroll({ top: 0 });
   }, []);
   return (
