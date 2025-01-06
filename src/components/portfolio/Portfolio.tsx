@@ -3,20 +3,13 @@ import TextDivider from "../divider/TextDivider";
 import { projectData } from "@/constant/constant";
 import Image from "next/legacy/image";
 import ImageViewer from "react-simple-image-viewer";
+import Modal from "../modal/Modal";
 
 const Portfolio = () => {
-  const [currentImage, setCurrentImage] = useState(0);
-  const [isViewerOpen, setIsViewerOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalData, setModalData] = useState({imageUrl: "", title: "", description: ""});
 
-  const openImageViewer = (index: number) => {
-    setCurrentImage(index);
-    setIsViewerOpen(true);
-  };
 
-  const closeImageViewer = () => {
-    setCurrentImage(0);
-    setIsViewerOpen(false);
-  };
   return (
     <section className="pt-10 mt-10 paddingDefault">
       <TextDivider text="Portfolio" id="portofolio" />
@@ -34,7 +27,10 @@ const Portfolio = () => {
             data-aos={`zoom-in-${
               (i + 1) % 3 === 0 ? "right" : (i + 1) % 3 === 1 ? "left" : "down"
             }`}
-            onClick={()=>openImageViewer(i)}
+            onClick={()=>{
+              setIsModalOpen(true)
+              setModalData({imageUrl: e.image, title: e.title, description: e.content})
+            }}
           >
             <Image
               src={e.image}
@@ -55,15 +51,15 @@ const Portfolio = () => {
           </div>
         ))}
       </div>
-      {isViewerOpen && (
-        <ImageViewer
-          src={projectData.map((e) => e.image)}
-          currentIndex={currentImage}
-          disableScroll={false}
-          closeOnClickOutside={true}
-          onClose={closeImageViewer}
-        />
-      )}
+
+      <Modal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        imageUrl={modalData.imageUrl}
+        title={modalData.title}
+        description={modalData.description}
+      />
+     
     </section>
   );
 };

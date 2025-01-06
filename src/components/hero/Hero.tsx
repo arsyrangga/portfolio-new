@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
@@ -11,31 +12,71 @@ const Hero = () => {
           style={{ position: "relative", bottom: "125px" }}
         ></div>
 
-        <h4 className="text-4xl" data-aos="flip-left" >
-          Hello, It’s Me
+        <h4 className="text-4xl" data-aos="flip-left">
+          <Typewriter
+            options={{
+              delay: 20,
+            }}
+            onInit={(typewriter) => {
+              typewriter.typeString("Hello, It’s Me").start();
+            }}
+          />
         </h4>
-        <h3
-          className="text-5xl py-6"
-          data-aos="zoom-in"
-          
-        >
-          Rangga Arsy Prawira
+        <h3 className="text-5xl py-6" data-aos="zoom-in">
+          <Typewriter
+            options={{
+              delay: 25,
+            }}
+            onInit={(typewriter) => {
+              typewriter
+                .pauseFor(400)
+                .typeString("Rangga Arsy Prawira")
+                .start();
+            }}
+          />
         </h3>
-        <h4
-          className="text-4xl pb-6"
-          data-aos="zoom-out"
+        <h4 className="text-4xl pb-6" data-aos="zoom-out">
+          <Typewriter
+            options={{
+              delay: 20,
+            }}
+            onInit={(typewriter) => {
+              typewriter
+                .pauseFor(900)
+                .typeString("And i’m a Frontend Developer")
+                .start();
+            }}
+          />
           
-        >
-          And i’m a Frontend Developer
         </h4>
-        <p data-aos="flip-left" >
-          I am Senior Frontend developer with more than 4 years experience,{" "}
-          <br />
-          Expert in Frontend and responsive UI and Seo friendly code
-        </p>
+        <div data-aos="flip-left">
+        <Typewriter
+            options={{
+              delay: 10,
+            }}
+            onInit={(typewriter) => {
+              typewriter
+                .pauseFor(1400)
+                .typeString("I am Senior Frontend developer with more than 4 years experience,")
+                .start();
+            }}
+          />
+          <Typewriter
+            options={{
+              delay: 9,
+            }}
+            onInit={(typewriter) => {
+              typewriter
+                .pauseFor(2000)
+                .typeString("Expert in Frontend and responsive UI and Seo friendly code")
+                .start();
+            }}
+          />
+        </div>
         <div className="flex gap-5 mt-5">
           <Image
             data-aos="fade-up"
+            data-aos-delay="2400"
             data-aos-duration="1000"
             src={"/assets/icon/icon_in.svg"}
             width={45}
@@ -47,6 +88,7 @@ const Hero = () => {
           />
           <Image
             data-aos-duration="1000"
+            data-aos-delay="2400"
             data-aos="fade-down"
             src={"/assets/icon/icon_email.svg"}
             width={45}
@@ -58,6 +100,7 @@ const Hero = () => {
           />
           <Image
             data-aos-duration="1000"
+            data-aos-delay="2400"
             data-aos="fade-up"
             src={"/assets/icon/icon_phone.svg"}
             width={46}
@@ -74,6 +117,7 @@ const Hero = () => {
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="2000"
+          data-aos-delay="2400"
           onClick={() => {
             window.open("https://wa.me/629673494895");
           }}

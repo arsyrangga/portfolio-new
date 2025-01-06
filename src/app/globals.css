@@ -91,6 +91,14 @@ main {
 
 
 @media (min-width : 768px) {
+  .modal-containers::-webkit-scrollbar {
+    width: 8px;
+  }
+  .modal-containers::-webkit-scrollbar-thumb {
+    background-color: #00D1FF;
+    border-radius: 10px;
+  }
+
   body::-webkit-scrollbar {
     width: 6px;
     /* width of the entire scrollbar */
@@ -102,6 +110,16 @@ main {
     border-radius: 10px;
     /* roundness of the scroll thumb */
 
+  }
+}
+
+.Typewriter__cursor {
+  display: none;
+}
+
+@keyframes removeCursor {
+  to {
+    border-right: transparent;
   }
 }
 

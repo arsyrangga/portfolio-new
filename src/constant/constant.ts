@@ -1,139 +1,138 @@
 export const imageList = [
   {
-    url: "/assets/images/react.svg",
-    alt: "react",
+    url: `/assets/images/react.svg`,
+    alt: `react`,
   },
   {
-    url: "/assets/images/next.svg",
-    alt: "next",
+    url: `/assets/images/next.svg`,
+    alt: `next`,
   },
   {
-    url: "/assets/images/tailwind.svg",
-    alt: "tailwind",
+    url: `/assets/images/tailwind.svg`,
+    alt: `tailwind`,
   },
   {
-    url: "/assets/images/typescript.svg",
-    alt: "typescript",
+    url: `/assets/images/typescript.svg`,
+    alt: `typescript`,
   },
   {
-    url: "/assets/images/mui.svg",
-    alt: "mui",
+    url: `/assets/images/mui.svg`,
+    alt: `mui`,
   },
   {
-    url: "/assets/images/bootstrap.svg",
-    alt: "bootstrap",
+    url: `/assets/images/bootstrap.svg`,
+    alt: `bootstrap`,
   },
 ];
 
 
 export const projectData = [
-    {
-      image: "/assets/images/bri.png",
-      title: "Qlola by BRI as Frontend Lead",
-      content:
-        "QLola by BRI merupakan sebuah produk inovasi terbaru dari BRI berupa Integrated Corporate Solution Platform yang akan memudahkan Nasabah dalam melakukan akses ke berbagai produk dan layanan BRI",
-    },
-    {
-      image: "/assets/images/cimb.jpg",
-      title: "Instructor Cimb Program by Hacktive8",
-      content:
-        "Menjadi seorang instructor di Cimb program dari hacktive8, mengajar materi frontend web developtment dan React selama 3 Bulan",
-    },
-    {
-      image: "/assets/images/toyota.jpg",
-      title: "Mtoyota",
-      content:
-        "Mtoyota merupakan mobile apps yang pernah saya kerjakan, Dibuat menggunakan Ionic Angular",
-    },
-    {
-      image: "/assets/images/apjii.jpg",
-      title: "Apjii Dashboard CMS",
-      content:
-        "Apjii dashboard merupakan cms dari Apjii, saya bertugas membuat UI dari Cms Apjii, dibuat menggunakan codeIgniter",
-    },
-    {
-      image: "/assets/images/concordia.jpg",
-      title: "Concordia Carwash",
-      content:
-        "Concordia carwash merupakan website untuk pencucian mobil, website ini bertujuan agar mempermudah sistem pencucian mobil, dibuat menggunakan codeIgniter, saya membuat web ini sendirian dari awal hingga selesai",
-    },
-    {
-      image: "/assets/images/rindang.jpg",
-      title: "Rindang Pari Cahya Buana",
-      content:
-        "Rindang Pari Cahya Buana merupakan  website company profile, company ini berpusat di jakarta, dibuat menggunakan nextjs, linknya adalah <a href='https://rindangparicb.vercel.app'><b>Rindang Pari Cahya Buana</b></a>",
-    },
-    {
-      image: "/assets/images/garda.jpg",
-      title: "Garda Medis",
-      content:
-        "Garda Medis merupakan aplikasi Dokter, aplikasi ini berpusat di daerah Bali, jadi pasien dapat konsultasi maupun video call dan perawat dapat datang kerumah kita, dibuat menggunakan react native expo custom, linknya adalah <a href='https://play.google.com/store/apps/details?id=com.gardamedis.gardamedismobileapp'><b>Garda Medis</b></a>",
-    },
-    {
-      image: "/assets/images/musi.jpg",
-      title: "Pasar Musi Baru",
-      content:
-        "Pasar Musi merupakan website belanja online, produk berasal dari Pasar Musi Baru di daerah Depok, dibuat menggunakan nextJS, linknya adalah <a href='https://online.pasarmusibaru.co.id'><b>Pasar Musi Baru</b></a>",
-    },
-    {
-      image: "/assets/images/musi-web.jpg",
-      title: "Pasar Musi Baru Official",
-      content:
-        "Pasar Musi Baru merupakan website official dari Pasar Musi Baru di daerah Depok, dibuat menggunakan framework NextJS, saya membuatnya hanya sendirian linknya adalah <a href='https://pasarmusibaru.co.id'><b>https://pasarmusibaru.co.id</b></a>",
-    },
-    {
-      image: "/assets/images/idn.jpg",
-      title: "IDN Media",
-      content:
-        "IDN Media merupakan situs company Profile yang sudah saya kerjakan domain dari situsnya adalah <a href='https://idn.media'><b>https://idn.media</b></a>",
-    },
-    {
-      image: "/assets/images/bjs.jpg",
-      title: "BJS",
-      content:
-        "Bintang Jamtama Sejahtera merupakan situs Company Profile dari kantor teman saya, saya mengerjakan situs ini sendirian dengan dengan menggunakan framework NextJS. domain dari situs ini adalah <a href='https://bjs.vercel.app'><b>bjs.vercel.app</b></a>",
-    },
-    {
-      image: "/assets/images/duta.jpg",
-      title: "Duta Dropship",
-      content:
-        "Duta Dropship merupakan situs  yang dibuat untuk mempermudah pada dropshiper mejual barang,situs ini  saya dan tim saya kerjakan dengan menggunakan framework NextJS domain dari situsnya adalah <a href='https://dutadropship.vercel.app'><b>dutadropship.vercel.app</b></a>",
-    },
-    {
-      image: "/assets/images/movementcare.jpg",
-      title: "Movementcare",
-      content:
-        "Movementcare merupakan situs donasi yang dibuat untuk berdonasi, situs ini saya kerjakan hanya berdua dengan menggunakan framework NextJS domain dari situsnya adalah <a href='https://movementcare.id'><b>https://movementcare.id</b></a>",
-    },
-    {
-      image: "/assets/images/jejak.jpg",
-      title: "Jejak Fun",
-      content:
-        "Jejak.fun merupakan website tebak tempat lewat google maps Api dan ada score juga situs ini saya kerjakan  dengan menggunakan framework NextJS domain dari situsnya adalah <a href='https://jejak.fun'><b>https://jejak.fun</b></a>",
-    },
-    {
-      image: "/assets/images/vc.jpg",
-      title: "Kandara Video Call",
-      content:
-        "Kandara Video Call merupakan website mirip seperti google meet dan zoom dimana bisa sharescreen juga situs ini saya kerjakan dengan menggunakan framework NextJS dan agora, domain dari situsnya adalah <a href='http://kandara-vidcall.vercel.app/'><b>http://kandara-vidcall.vercel.app</b></a>",
-    },
-  
-    {
-      image: "/assets/images/fithozee.jpg",
-      title: "Fithozee",
-      content:
-        "Fithozee merupakan situs yang menjual berbagai kebutuhan social media, situs ini punya teman saya, saya mengerjakan situs ini sendirian dengan dengan hanya dengan menggunakan HTML CSS dan Javascript. domain dari situs ini adalah : <a href='https://fithozee.com'><b>fithozee.com</b></a>",
-    },
-    {
-      image: "/assets/images/ekawira.jpg",
-      title: "Ekawira Sanjaya",
-      content:
-        "Panca Ekawira Sanjaya merupakan situs Company Profile situs ini saya dan tim saya kerjakan domain dari situsnya adalah <a href='https://pancaekawirasanjaya.com'><b>pancaekawirasanjaya.com</b></a>",
-    },
-    {
-      image: "/assets/images/barokah.jpg",
-      title: "Toko Barokah",
-      content:
-        "Toko Barokah merupakan project situs ini untuk teman saya yang sedang skripsi, saya mengerjakan situs ini sendirian dengan menggunakan React dan database Beckend menggunakan Express sqlite3 domain dari situs ini adalah : <a href='https://toko-barokah.vercel.app'><b>toko-barokah.vercel.app</b></a>",
-    },
-  ];
+  {
+    image: `/assets/images/bri.png`,
+    title: `Qlola by BRI as Frontend Lead`,
+    content:
+      `QLola by BRI is BRI's latest innovative product in the form of an Integrated Corporate Solution Platform that will make it easier for Customers to access various BRI products and services`,
+  },
+  {
+    image: `/assets/images/cimb.jpg`,
+    title: `Instructor Cimb Program by Hacktive8`,
+    content:
+      `Became an instructor in the Cimb program from Hacktive8, teaching frontend web development and React materials for 3 months`,
+  },
+  {
+    image: `/assets/images/toyota.jpg`,
+    title: `Mtoyota`,
+    content:
+      `Mtoyota is a mobile app that I worked on, Built using Ionic Angular`,
+  },
+  {
+    image: `/assets/images/apjii.jpg`,
+    title: `Apjii Dashboard CMS`,
+    content:
+      `Apjii dashboard is a CMS from Apjii, I was in charge of creating the UI for the Apjii CMS, built using CodeIgniter`,
+  },
+  {
+    image: `/assets/images/concordia.jpg`,
+    title: `Concordia Carwash`,
+    content:
+      `Concordia carwash is a website for car washing, this website aims to simplify the car washing system, built using CodeIgniter, I built this website alone from start to finish`,
+  },
+  {
+    image: `/assets/images/rindang.jpg`,
+    title: `Rindang Pari Cahya Buana`,
+    content:
+      `Rindang Pari Cahya Buana is a company profile website, this company is based in Jakarta, built using NextJS, the link is <a style="color:#23004F;" href="https://rindangparicb.vercel.app"><b>Rindang Pari Cahya Buana</b></a>`,
+  },
+  {
+    image: `/assets/images/garda.jpg`,
+    title: `Garda Medis`,
+    content:
+      `Garda Medis is a Doctor application, this application is based in Bali area, so patients can consult or video call and nurses can come to our home, built using React Native Expo custom, the link is <a style="color:#23004F;" href="https://play.google.com/store/apps/details?id=com.gardamedis.gardamedismobileapp"><b>Garda Medis</b></a>`,
+  },
+  {
+    image: `/assets/images/musi.jpg`,
+    title: `Pasar Musi Baru`,
+    content:
+      `Pasar Musi is an online shopping website, products come from Pasar Musi Baru in the Depok area, built using NextJS, the link is <a style="color:#23004F;" href="https://online.pasarmusibaru.co.id"><b>Pasar Musi Baru</b></a>`,
+  },
+  {
+    image: `/assets/images/musi-web.jpg`,
+    title: `Pasar Musi Baru Official`,
+    content:
+      `Pasar Musi Baru is the official website of Pasar Musi Baru in the Depok area, built using the NextJS framework, I made it alone, the link is <a style="color:#23004F;" href="https://pasarmusibaru.co.id"><b>https://pasarmusibaru.co.id</b></a>`,
+  },
+  {
+    image: `/assets/images/idn.jpg`,
+    title: `IDN Media`,
+    content:
+      `IDN Media is a company Profile site that I have worked on, the domain of the site is <a style="color:#23004F;" href="https://idn.media"><b>https://idn.media</b></a>`,
+  },
+  {
+    image: `/assets/images/bjs.jpg`,
+    title: `BJS`,
+    content:
+      `Bintang Jamtama Sejahtera is a Company Profile site from my friend's office, I worked on this site alone using the NextJS framework. the domain of this site is <a style="color:#23004F;" href="https://bjs.vercel.app"><b>bjs.vercel.app</b></a>`,
+  },
+  {
+    image: `/assets/images/duta.jpg`,
+    title: `Duta Dropship`,
+    content:
+      `Duta Dropship is a site created to make it easier for dropshippers to sell goods, this site was worked on by me and my team using the NextJS framework, the domain of the site is <a style="color:#23004F;" href="https://dutadropship.vercel.app"><b>dutadropship.vercel.app</b></a>`,
+  },
+  {
+    image: `/assets/images/movementcare.jpg`,
+    title: `Movementcare`,
+    content:
+      `Movementcare is a donation site created for donating, I worked on this site by myself with a little help on the backend part, this website was built using the NextJS framework`,
+  },
+  {
+    image: `/assets/images/jejak.jpg`,
+    title: `Jejak Fun`,
+    content:
+      `Jejak.fun is a website for guessing places through Google Maps API and there are scores too, I worked on this site using the NextJS framework`,
+  },
+  {
+    image: `/assets/images/vc.jpg`,
+    title: `Kandara Video Call`,
+    content:
+      `Kandara Video Call is a website similar to Google Meet and Zoom where you can also sharescreen, I Created this site using the NextJS framework and Agora, the domain of the site is <a style="color:#23004F;" href="http://kandara-vidcall.vercel.app/"><b>http://kandara-vidcall.vercel.app</b></a>`,
+  },
+  {
+    image: `/assets/images/fithozee.jpg`,
+    title: `Fithozee`,
+    content:
+      `Fithozee is a site that sells various social media needs, I created site alone using only HTML CSS and Native Javascript without using any framework.`,
+  },
+  {
+    image: `/assets/images/ekawira.jpg`,
+    title: `Ekawira Sanjaya`,
+    content:
+      `PT Panca Ekawira Sanjaya is a company offering distribution, construction, and application services. The company was established in Jakarta in 2018 by experienced professionals14. Their main business focuses on construction material distribution and construction services throughout Indonesia. The domain of the site is <a style="color:#23004F;" href="https://pancaekawirasanjaya.com"><b>pancaekawirasanjaya.com</b></a>`,
+  },
+  {
+    image: `/assets/images/sinarmas_assets.png`,
+    title: `Indobara Smart Services`,
+    content:
+      `Indobara Smart Services(iServe) is a website for PT Borneo Indo Bara (BIB), part of Sinar Mas Mining Group. Primarily this website is for Serving Fuel Assets, Visit Management, GA Reporting, Asset Inspection and Observation, and others. Only BIB and contractors can use Indobara Smart Services, I worked on this project in the assets management section`,
+  },
+];
