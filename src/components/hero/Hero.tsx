@@ -67,7 +67,7 @@ const Hero = () => {
             }}
             onInit={(typewriter) => {
               typewriter
-                .pauseFor(2000)
+                .pauseFor(2300)
                 .typeString("Expert in Frontend and responsive UI and Seo friendly code")
                 .start();
             }}
@@ -76,7 +76,7 @@ const Hero = () => {
         <div className="flex gap-5 mt-5">
           <Image
             data-aos="fade-up"
-            data-aos-delay="2400"
+            data-aos-delay="2600"
             data-aos-duration="1000"
             src={"/assets/icon/icon_in.svg"}
             width={45}
@@ -88,7 +88,7 @@ const Hero = () => {
           />
           <Image
             data-aos-duration="1000"
-            data-aos-delay="2400"
+            data-aos-delay="2600"
             data-aos="fade-down"
             src={"/assets/icon/icon_email.svg"}
             width={45}
@@ -100,7 +100,7 @@ const Hero = () => {
           />
           <Image
             data-aos-duration="1000"
-            data-aos-delay="2400"
+            data-aos-delay="2600"
             data-aos="fade-up"
             src={"/assets/icon/icon_phone.svg"}
             width={46}
@@ -117,7 +117,7 @@ const Hero = () => {
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="2000"
-          data-aos-delay="2400"
+          data-aos-delay="2600"
           onClick={() => {
             window.open("https://wa.me/629673494895");
           }}
