@@ -10,6 +10,7 @@ import Skills from "@/components/skills/Skills";
 import Portfolio from "@/components/portfolio/Portfolio";
 import Contact from "@/components/contact/Contact";
 import Footer from "@/components/footer/Footer";
+import Script from "next/script";
 
 
 export default function Home() {
@@ -18,7 +19,7 @@ export default function Home() {
     window.scroll({ top: 0 });
   }, []);
   return (
-    <div className="flex w-100 flex-col justify-center items-center">
+    <div className="flex w-100 flex-col justify-center items-center" id="my-background">
       <FlareCursor />
       <Suspense
         fallback={
@@ -43,6 +44,34 @@ export default function Home() {
         </main>
       </Suspense>
       <Footer />
+
+      <Script
+        src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"
+        strategy="afterInteractive"
+        onLoad={() => console.log("Three.js loaded")}
+      />
+
+      {/* Load Vanta.js */}
+      <Script
+        src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.net.min.js"
+        strategy="afterInteractive"
+        onLoad={() => {
+          // @ts-ignore
+          window?.VANTA.NET({
+            el: "#my-background",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            // color: 0x00FFE1,
+            color: 0xFF0285,
+            backgroundColor: 0x23004F
+          })
+        }}
+      />
     </div>
   );
 }
