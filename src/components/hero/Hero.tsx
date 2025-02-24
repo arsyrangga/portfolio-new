@@ -47,17 +47,18 @@ const Hero = () => {
                 .start();
             }}
           />
-          
         </h4>
         <div data-aos="flip-left">
-        <Typewriter
+          <Typewriter
             options={{
               delay: 10,
             }}
             onInit={(typewriter) => {
               typewriter
                 .pauseFor(1400)
-                .typeString("I am Senior Frontend developer with more than 4 years experience,")
+                .typeString(
+                  "I am Senior Frontend developer with more than 4 years experience,"
+                )
                 .start();
             }}
           />
@@ -68,17 +69,15 @@ const Hero = () => {
             onInit={(typewriter) => {
               typewriter
                 .pauseFor(2300)
-                .typeString("Expert in Frontend and responsive UI and Seo friendly code")
+                .typeString(
+                  "Expert in Frontend and responsive UI and Seo friendly code"
+                )
                 .start();
             }}
           />
         </div>
         <div className="flex gap-5 mt-5">
           <Image
-            data-aos="fade-up"
-            data-aos-delay="2600"
-            data-aos-once="true"
-            data-aos-duration="1000"
             src={"/assets/icon/icon_in.svg"}
             width={45}
             height={45}
@@ -88,10 +87,6 @@ const Hero = () => {
             }}
           />
           <Image
-            data-aos-duration="1000"
-            data-aos-delay="2600"
-            data-aos-once="true"
-            data-aos="fade-down"
             src={"/assets/icon/icon_email.svg"}
             width={45}
             height={45}
@@ -101,10 +96,6 @@ const Hero = () => {
             }}
           />
           <Image
-            data-aos-duration="1000"
-            data-aos-delay="2600"
-            data-aos-once="true"
-            data-aos="fade-up"
             src={"/assets/icon/icon_phone.svg"}
             width={46}
             height={46}
