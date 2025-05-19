@@ -1,29 +1,30 @@
 export const imageList = [
   {
-    url: `/assets/images/nodejs.png`,
-    alt: `nodejs`,
-  },
-  {
-    url: `/assets/images/next.svg`,
-    alt: `next`,
-  },
-  {
     url: `/assets/images/golang.png`,
     alt: `golang`,
   },
   {
-    url: `/assets/images/typescript.svg`,
-    alt: `typescript`,
+    url: `/assets/images/nodejs.png`,
+    alt: `nodejs`,
   },
   {
-    url: `/assets/images/mui.svg`,
+    url: `/assets/images/postgre.png`,
+    alt: `postgreSQL`,
+  },
+  {
+    url: `/assets/images/mysql.png`,
+    alt: `mySQL`,
+  },
+  {
+    url: `/assets/images/gcp.png`,
     alt: `mui`,
   },
   {
-    url: `/assets/images/tailwind.svg`,
-    alt: `tailwind`,
+    url: `/assets/images/openai.png`,
+    alt: `openAI`,
   },
 ];
+
 
 export const projectData = [
   {

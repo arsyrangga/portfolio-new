@@ -1,15 +1,15 @@
 export const imageList = [
   {
-    url: `/assets/images/nodejs.png`,
-    alt: `nodejs`,
+    url: `/assets/images/react.svg`,
+    alt: `react`,
   },
   {
     url: `/assets/images/next.svg`,
     alt: `next`,
   },
   {
-    url: `/assets/images/golang.png`,
-    alt: `golang`,
+    url: `/assets/images/tailwind.svg`,
+    alt: `tailwind`,
   },
   {
     url: `/assets/images/typescript.svg`,
@@ -20,10 +20,11 @@ export const imageList = [
     alt: `mui`,
   },
   {
-    url: `/assets/images/tailwind.svg`,
-    alt: `tailwind`,
+    url: `/assets/images/bootstrap.svg`,
+    alt: `bootstrap`,
   },
 ];
+
 
 export const projectData = [
   {

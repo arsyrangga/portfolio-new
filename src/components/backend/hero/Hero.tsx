@@ -43,7 +43,7 @@ const Hero = () => {
             onInit={(typewriter) => {
               typewriter
                 .pauseFor(900)
-                .typeString("And i’m a Fullstack Developer")
+                .typeString("And i’m a Backend Developer")
                 .start();
             }}
           />
@@ -57,7 +57,7 @@ const Hero = () => {
               typewriter
                 .pauseFor(1400)
                 .typeString(
-                  "I am Fullstack developer with more than 3 years experience,"
+                  "I am Backend developer with more than 2 years experience,"
                 )
                 .start();
             }}
@@ -70,7 +70,7 @@ const Hero = () => {
               typewriter
                 .pauseFor(2300)
                 .typeString(
-                  "Expert in Backend and Frontend responsive UI and Seo friendly code"
+                  "Expert in backend and friendly clean code"
                 )
                 .start();
             }}
