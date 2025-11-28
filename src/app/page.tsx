@@ -11,9 +11,11 @@ import Portfolio from "@/components/portfolio/Portfolio";
 import Contact from "@/components/contact/Contact";
 import Footer from "@/components/footer/Footer";
 import Script from "next/script";
+import { redirect } from "next/navigation";
 
 
 export default function Home() {
+  redirect("https://portofolio.rangga.tech");
   useEffect(() => {
     AOS.init();
     window.scroll({ top: 0 });
