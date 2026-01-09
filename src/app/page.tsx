@@ -15,7 +15,7 @@ import { redirect } from "next/navigation";
 
 
 export default function Home() {
-  redirect("https://portofolio.rangga.tech");
+  redirect("https://portofolio.rangga.click");
   useEffect(() => {
     AOS.init();
     window.scroll({ top: 0 });
